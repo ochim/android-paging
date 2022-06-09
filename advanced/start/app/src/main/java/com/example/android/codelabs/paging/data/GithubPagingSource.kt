@@ -9,7 +9,7 @@ import com.example.android.codelabs.paging.model.Repo
 import retrofit2.HttpException
 import java.io.IOException
 
-private const val GITHUB_STARTING_PAGE_INDEX = 1
+const val GITHUB_STARTING_PAGE_INDEX = 1
 
 class GithubPagingSource(
     private val service: GithubService,
